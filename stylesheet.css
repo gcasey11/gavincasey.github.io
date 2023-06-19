@@ -1,27 +1,72 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #ffffff;
     overflow: hidden;
+    top: 100;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #696969;
     text-align: center;
+    align-items: start;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  
-  /* Change the color of links on hover */
+
   .topnav a:hover {
-    background-color: #ddd;
+    opacity: 0.5;
+  }
+
+  a {
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
+    font-weight: bolder;
+    text-decoration: none;
   }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+
+  a:hover {
+    color: grey;
   }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin: 3%;
+    column-gap: 10px;
+}
+
+.box {
+    padding: 2%;
+    text-align: center;
+    height: 100%;
+    background-color: rgb(116, 115, 115);
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+.box p {
+    vertical-align: middle;
+}
+
+.box:hover {
+    opacity: 0.5;
+}
+
+.year-title {
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
