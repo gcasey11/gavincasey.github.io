@@ -81,7 +81,8 @@ h1 {
 
 body {
     color: #696969;
-    background-color: #fbfaf5;
+    /* background-color: #fbfaf5; */
+    background: radial-gradient(circle at 100%, #bcbcbc, #8a8a8a 50%, #c9c9c9 75%, #e4e4e4 75%);
     font-family: Arial, Helvetica, sans-serif;
 }
 
