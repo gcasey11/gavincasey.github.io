@@ -2,10 +2,10 @@
 .topnav {
     overflow: hidden;
     top: 100;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
     color: #696969;
     text-align: center;
@@ -14,26 +14,26 @@
     text-decoration: none;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
-  .topnav a:hover {
+.topnav a:hover {
     opacity: 0.5;
-  }
+}
 
-  a {
+a {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-weight: bolder;
     text-decoration: none;
-  }
+}
 
-  a:hover {
+a:hover {
     color: grey;
-  }
+}
 
-  p {
+p {
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
 .grid-container {
     display: grid;
@@ -43,6 +43,7 @@
     padding-left: 5%;
     padding-right: 5%;
     height: 10%;
+    opacity: 0.8;
 }
 
 .box {
@@ -59,6 +60,7 @@
     font-weight: normal;
     display: block;
     height: 100%;
+    font-size: 125%;
 }
 
 .box:hover {
@@ -79,4 +81,55 @@ h1 {
 
 body {
     color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    /* Add a black background color to the top navigation */
+    .topnav {
+        overflow: hidden;
+        top: 100;
+        display:block;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        /* float: left; */
+        color: #696969;
+        text-align: center;
+        align-items: start;
+        padding: 10%;
+        text-decoration: none;
+        font-size: 150%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav a:hover {
+        opacity: 0.5;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 15em;
+        opacity: 0.8;
+    }
+
+    .box {
+        padding: 3%;
+        text-align: center;
+        background-color: rgb(116, 115, 115);
+        opacity: 0.8;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .box a {
+        padding: 2%;
+        color: aliceblue;
+        font-weight: normal;
+        display: block;
+        height: 100%;
+        font-size: 125%;
+    }
+  }
