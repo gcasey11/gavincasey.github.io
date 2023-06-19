@@ -45,16 +45,20 @@
 }
 
 .box {
-    padding: 2%;
+    padding: 3%;
+    padding-top: 5%;
     text-align: center;
     height: 100%;
     background-color: rgb(116, 115, 115);
-    color: aliceblue;
     opacity: 0.8;
 }
 
-.box p {
+.box a {
+    padding: 2%;
     vertical-align: middle;
+    color: aliceblue;
+    font-weight: normal;
+    
 }
 
 .box:hover {
