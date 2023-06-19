@@ -42,23 +42,23 @@
     column-gap: 10px;
     padding-left: 5%;
     padding-right: 5%;
+    height: 10%;
 }
 
 .box {
     padding: 3%;
     padding-top: 5%;
     text-align: center;
-    height: 100%;
     background-color: rgb(116, 115, 115);
     opacity: 0.8;
 }
 
 .box a {
     padding: 2%;
-    vertical-align: middle;
     color: aliceblue;
     font-weight: normal;
-    
+    display: block;
+    height: 100%;
 }
 
 .box:hover {
@@ -67,11 +67,16 @@
 
 .year-title {
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
+    color: #696969;
+}
+
+body {
+    color: #696969;
 }
