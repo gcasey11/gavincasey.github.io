@@ -136,3 +136,62 @@ body {
         font-size: 100%;
     }
   }
+
+.language-list {
+    text-align: center;
+    list-style: none;
+}
+
+.language-list li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.language-list p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.work-experience li {
+    list-style: square;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.collapsible {
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.0);
+    color: #696969;
+    cursor: pointer;
+    padding: 18px;
+    width: 25%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+color: #7f7e7e;
+}
+
+.content {
+padding: 0 18px;
+background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+background: rgba(204, 204, 204, 0);
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+content: '\02795'; /* Unicode character for "plus" sign (+) */
+font-size: 13px;
+color: white;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
