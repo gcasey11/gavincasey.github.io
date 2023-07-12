@@ -110,6 +110,7 @@
         width: 100%;
         max-width: 1300px;
         padding: 0;
+        margin: 0;
     }
 
     .navbar__menu {
@@ -123,6 +124,7 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
+        margin: 0;
     }
 
     .navbar__menu.active {
@@ -135,9 +137,9 @@
         font-size: 1.6rem;
     }
 
-    /* #navbar__logo {
-        padding-left: 50px;
-    } */
+    #navbar__logo {
+        padding-left: 25px;
+    }
 
     .navbar__toggle .bar {
         width: 25px;
@@ -346,10 +348,6 @@
     .main__btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
-    }
-
-    * {
-        overflow-x: hidden;
     }
 }
 
