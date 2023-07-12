@@ -135,9 +135,9 @@
         font-size: 1.6rem;
     }
 
-    #navbar__logo {
+    /* #navbar__logo {
         padding-left: 50px;
-    }
+    } */
 
     .navbar__toggle .bar {
         width: 25px;
