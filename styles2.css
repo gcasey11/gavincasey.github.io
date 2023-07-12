@@ -347,6 +347,10 @@
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
+
+    * {
+        overflow-x: hidden;
+    }
 }
 
 /* Services */
