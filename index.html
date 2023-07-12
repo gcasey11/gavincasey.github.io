@@ -1,42 +1,72 @@
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<head class="heading">
-    <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
-    <title>Gavin Casey</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <div class="topnav">
-        <a href="index.html">GC</a>
-        <a href="academic.html">Academic</a>
-        <a href="code.html">Code</a>
-        <a href="contact.html">Contact</a>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://kit.fontawesome.com/37089874c4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
-<body style="padding: 2%;">
-    <h1>Gavin Casey</h1>
-    <p>Gavin Casey is a Third Year university student at the University of Sydney. Gavin is currently studying a <a href="https://www.sydney.edu.au/courses/courses/uc/bachelor-of-advanced-computing.html" target="_blank">Bachelor of Advanced Computing
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">GC</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> Projects </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> Academia </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button"> Contact </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    </a> with a Major in Computer Science and a Minor in Software Development.</p>
-    <p>Feel free to look around!</p>
-    <br>
-    <h2>Work Experience</h2> 
-    <button type="button" class="collapsible">GR Tutoring</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Gavin Casey</h1>
+                <p>More than ready to center a div.</p>
+                <button class="main__btn"><a href="/">Get Started</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/pic1.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+
     </div>
-    <button type="button" class="collapsible">Tutor Doctor</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+    <!-- Project Section -->
+    <div class="services">
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Coding Projects</h2>
+                <p>My Masterpieces</p>
+                <button>See Now</button>
+            </div>
+            <div class="services__card">
+                <h2>Academia</h2>
+                <p>My areas of expertise</p>
+                <button>Find Out</button>
+            </div>
+        </div>
     </div>
-    <button type="button" class="collapsible">Farina Pizzeria</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <button type="button" class="collapsible">Elula.ai</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <button type="button" class="collapsible">Puzzle Partners</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <script src="collapsible.js"></script>
+    <script src="app.js"></script>
 </body>
+</html>
