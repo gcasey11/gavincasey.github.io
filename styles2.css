@@ -615,7 +615,6 @@ html {
     flex-direction: column;
     flex: 0 0 100%;
     padding: 20px;
-    background: var(--white);
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
     scroll-snap-align: start;
@@ -651,18 +650,18 @@ html {
     display: inline-block;
     text-decoration: none;
     color: white;
-    background: var(--red);
+    background: #276d22;
     padding: 6px 12px;
     border-radius: 8px;
     transition: background 0.2s;
   }
   
   .card:hover .card-link {
-    background: var(--darkred);
+    background: #276d22;
   }
   
   .cards::-webkit-scrollbar {
-    height: 12px;
+    height: 15px;
   }
   
   .cards::-webkit-scrollbar-thumb,
@@ -671,11 +670,11 @@ html {
   }
   
   .cards::-webkit-scrollbar-thumb {
-    background: var(--darkred);
+    background: #131b13;
   }
   
   .cards::-webkit-scrollbar-track {
-    background: var(--thumb);
+    background: #141414;
   }
   
   @media (min-width: 500px) {
@@ -732,7 +731,7 @@ html {
     padding: 2rem;
 }
 
-.languages--header {
+.header {
     background-color: #141414;
     align-items: center;
     display: flex;
@@ -743,14 +742,32 @@ html {
     padding-bottom: 20px;
 }
 
+h2.header {
+    font-size: 2rem;
+    padding-top: 40px;
+}
+
+i.header {
+    font-size: 1rem;
+}
+
 @media screen and (max-width: 480px) {
     .languages i {
         font-size: 2rem;
     }
 
-    .languages--header {
+    .header {
         font-size: 1.75rem;
     }
+
+    i.header {
+        font-size: 0.5rem;
+    }
+
+    h2.header {
+        font-size: 1rem;
+    }
+
   }
 
 
