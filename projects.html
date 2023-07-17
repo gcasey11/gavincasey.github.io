@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../font-mfizz/font-mfizz.css">
     <title>Gavin Casey</title>
 </head>
 <body>
@@ -44,7 +45,6 @@
             <div class="main__content">
                 <h1>Projects</h1>
                 <p>Dive into the repo.</p>
-                <button class="main__btn"><a href="/">Get Started</a></button>
             </div>
             <div class="main__img--container">
                 <img src="images/pic4.svg" alt="pic" id="main__img">
@@ -54,13 +54,40 @@
     </div>
     
     <!-- Project Section -->
-    <h1 class="header">Languages</h1>
-    <div class="languages">
-        <i class="fa-brands fa-react"></i>
-        <i class="fa-brands fa-square-js"></i>
-        <i class="fa-brands fa-python"></i>
-        <i class="fa-brands fa-java"></i>
+    <div class="languages__container">
+        <div id="languages" class="languages__content reveal">
+            <h1 class="header">Languages</h1>
+            <div class="languages">
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="icon-html5-alt"></i>
+                <i class="icon-css3-alt"></i>
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="icon-c"></i>
+                <i class="icon-shell"></i>
+            </div>
+        </div>
+        <div class="languages__content reveal">
+            <h1 class="header">DBMS</h1>
+            <div class="languages">
+                <i class="icon-mongodb"></i>
+                <i class="icon-mysql-alt"></i>
+                <i class="icon-postgres"></i>
+            </div>
+        </div>
+        <div class="languages__content reveal">
+            <h1 class="header">Technologies</h1>
+            <div class="languages">
+                <i class="icon-gradle"></i>
+                <i class="icon-spring"></i>
+                <i class="icon-nodejs"></i>
+                <i class="icon-git"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
     </div>
+
     <script src="app.js"></script>
 </body>
 </html>

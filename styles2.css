@@ -361,7 +361,6 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 
 .services h1 {
@@ -404,12 +403,14 @@ html {
     position: absolute;
     top: 350px;
     left: 30px;
+    padding-left: 2rem;
 }
 
 .services__card p {
     position: absolute;
     top: 400px;
     left: 30px;
+    padding-left: 2rem;
 }
 
 .services__card button {
@@ -424,6 +425,12 @@ html {
     left: 30px;
     font-size: 1rem;
     cursor: pointer;
+    margin-left: 2rem;
+}
+
+.services__card a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* .services__card:hover {
@@ -722,6 +729,7 @@ html {
     display: flex;
     padding: 0 auto;
     justify-content: center;
+
 }
 
 .languages i {
@@ -729,6 +737,16 @@ html {
     font-size: 3rem;
     align-items: center;
     padding: 2rem;
+}
+
+.languages__container {
+    padding-bottom: 150px;
+    background-color: #141414;
+}
+
+.languages__content {
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .header {
@@ -739,7 +757,6 @@ html {
     justify-content: center;
     font-size: 3rem;
     color: #fff;
-    padding-bottom: 20px;
 }
 
 h2.header {
