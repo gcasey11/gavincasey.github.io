@@ -10,7 +10,7 @@ html {
 }
 
 .navbar {
-    background: #141b13;
+    background: #000001;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -132,7 +132,7 @@ html {
     }
 
     .navbar__menu.active {
-        background: #141b13;
+        background: #000001;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -205,7 +205,7 @@ html {
 
 /* Hero Section CSS */
 .main {
-    background-color: #141414;
+    background-color: #000001;
 }
 
 .main__container {
@@ -215,7 +215,7 @@ html {
     justify-self: center;
     margin: 0 auto;
     height: 100vh;
-    background-color: #141414;
+    background-color: #000001;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -246,7 +246,7 @@ html {
 
 .main__content p {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 700;
     color: #fff;
 }
@@ -361,7 +361,7 @@ html {
 
 /* Services */
 .services {
-    background-color: #141414;
+    background-color: #000001;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -470,7 +470,7 @@ html {
 
 /* Footer CSS */
 .footer__container {
-    background-color: #141414;
+    background-color: #000001;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -607,7 +607,7 @@ html {
     max-width: 100%;
     padding: 0 15px;
     margin: 0 auto;
-    background-color: #141414;
+    background-color: #000001;
     align-items: center;
     padding: 0 100px;
     margin: 0 auto;
@@ -630,7 +630,9 @@ html {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
     scroll-snap-align: start;
     transition: all 0.2s;
-    background-color: #141b13;
+    background-color: #000001;
+    border: solid 4px;
+    border-color: #26a51d;
   }
   
   .card:not(:last-child) {
@@ -639,7 +641,7 @@ html {
   
   .card:hover {
     color: var(--white);
-    background: var(--red);
+    background: #26a51d;
   }
   
   .card .card-title {
@@ -668,7 +670,7 @@ html {
   }
   
   .card:hover .card-link {
-    background: #276d22;
+    background: #26a51d;
   }
   
   .cards::-webkit-scrollbar {
@@ -685,7 +687,7 @@ html {
   }
   
   .cards::-webkit-scrollbar-track {
-    background: #141414;
+    background: #000001;
   }
   
   @media (min-width: 500px) {
@@ -728,7 +730,7 @@ html {
 
 /* Projects */
 .languages {
-    background-color: #141414;
+    background-color: #000001;
     align-items: center;
     display: flex;
     margin: 0 auto;
@@ -745,7 +747,7 @@ html {
 
 .languages__container {
     padding-bottom: 150px;
-    background-color: #141414;
+    background-color: #000001;
 }
 
 .languages__content {
@@ -754,7 +756,7 @@ html {
 }
 
 .header {
-    background-color: #141414;
+    background-color: #000001;
     align-items: center;
     display: flex;
     padding: 0 auto;
