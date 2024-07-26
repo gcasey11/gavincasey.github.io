@@ -814,8 +814,8 @@ i.header {
   }
 
   .slideshow-container img {
-    border-radius: 100px;
-    max-height: 300px;
+    /* border-radius: 100px; */
+    max-height: 500px;
   }
   
   /* Next & previous buttons */
@@ -884,6 +884,43 @@ i.header {
     to {opacity: 1}
   }
 
+.specialisation-cards {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000001;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.specialisation-card {
+    border: 4px solid #26a51d;
+    border-radius: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 3rem;
+    flex: 1 1 0px;
+}
+
+.specialisation-card i {
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.specialisation-card-container {
+    padding: 32px;
+    
+}
+
+@media screen and (max-width: 480px) {
+    .specialisation-cards {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+  }
 
 /* Reveal */
 .reveal{
